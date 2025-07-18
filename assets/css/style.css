@@ -103,6 +103,16 @@ h2 {
   border: none !important;
 }
 
+/*  Events section  */
+
+.text-filled {
+  padding: 5px 2em;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: var(--highlight-color);
+  color: white;
+  text-align: center;
+}
 /* Footer /contact */
 
 #contact {
