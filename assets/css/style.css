@@ -68,6 +68,11 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+#new-games .card,
+#fav-games .card {
+  border: none !important;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -89,25 +94,29 @@ h2 {
   #services .card-body {
     min-height: 191px;
   }
+} /* <-- closes @media (min-width: 768px) */
 
-  /* Large devices (small laptops 992px and up  */
+/* Large devices (small laptops 992px and up  */
 
 @media (min-width: 992px) {
   /* make all service cards the same height for consistency */
   #services .card-body {
     min-height: auto;
   }
-  /* Extra large devices (Xlarge laptops and desktops 1200px and up) */
+} /* <-- closes @media (min-width: 992px) */
+
+/* Extra large devices (Xlarge laptops and desktops 1200px and up) */
 @media (min-width: 1200px) {
   /* make all service cards the same height for consistency */
   #services .card-body {
     min-height: 220px;
   }
+} /* <-- closes @media (min-width: 1200px) */
 
- /* XXL devices ( XXL desktops 1400px and up*/
+/* XXL devices ( XXL desktops 1400px and up*/
 @media (min-width: 1400px) {
   /* make all service cards the same height for consistency */
   #services .card-body {
     min-height: 195px;
   }
-}
+} /* <-- closes @media (min-width: 1400px) */
